@@ -10320,8 +10320,16 @@
   },
   {
     "name": "AIA Mainnet",
-    "chain": "AIA",
-    "icon": "aia",
+    "chainId": 1319,
+    "shortName": "aia",
+    "chain": "AIA Chain",
+    "network": "mainnet",
+    "networkId": 1319,
+    "nativeCurrency": {
+        "name": "AIA Mainnet",
+        "symbol": "AIA",
+        "decimals": 18
+    },
     "rpc": [
       "https://aia-dataseed1.aiachain.org",
       "https://aia-dataseed2.aiachain.org",
@@ -10329,16 +10337,13 @@
       "https://aia-dataseed4.aiachain.org"
     ],
     "faucets": [],
-    "nativeCurrency": {
-      "name": "AIA Mainnet",
-      "symbol": "AIA",
-      "decimals": 18
-    },
     "infoURL": "https://www.aiachain.org",
-    "shortName": "aia",
-    "chainId": 1319,
-    "networkId": 1319,
-    "explorers": [
+    "app_resource": {
+        "ic_chain_select": "https://images.aiachain.org/AIA/AIA1.png",
+        "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2.png",
+        "color_chain_bg": "0x080134"
+    },
+	"explorers": [
       {
         "name": "AIA Chain Explorer Mainnet",
         "url": "https://aiascan.com",
@@ -10348,24 +10353,29 @@
   },
   {
     "name": "AIA Testnet",
-    "chain": "AIA",
-    "icon": "aia",
+    "chainId": 1320,
+    "shortName": "aiatestnet",
+    "chain": "AIA Chain",
+    "network": "testnet",
+    "networkId": 1320,
+    "nativeCurrency": {
+        "name": "AIA Testnet",
+        "symbol": "AIA",
+        "decimals": 18
+    },
     "rpc": [
       "https://aia-dataseed1-testnet.aiachain.org"
     ],
     "faucets": [
-      "https://aia-faucet-testnet.aiachain.org"
-    ],
-    "nativeCurrency": {
-      "name": "AIA Testnet",
-      "symbol": "AIA",
-      "decimals": 18
-    },
+	  "https://aia-faucet-testnet.aiachain.org"
+	],
     "infoURL": "https://www.aiachain.org",
-    "shortName": "aiatestnet",
-    "chainId": 1320,
-    "networkId": 1320,
-    "explorers": [
+    "app_resource": {
+        "ic_chain_select": "https://images.aiachain.org/AIA/AIA1-test.png",
+        "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2-test.png",
+        "color_chain_bg": "0xA1473B"
+    },
+	"explorers": [
       {
         "name": "AIA Chain Explorer Testnet",
         "url": "https://testnet.aiascan.com",
