@@ -21124,8 +21124,10 @@
     "chain": "Lightlink Phoenix Mainnet",
     "icon": "lightlink",
     "rpc": [
+      "https://endpoints.omniatech.io/v1/lightlink/phoenix/public",
       "https://replicator-01.phoenix.lightlink.io/rpc/v1",
-      "https://replicator-02.phoenix.lightlink.io/rpc/v1"
+      "https://replicator-02.phoenix.lightlink.io/rpc/v1",
+      "https://replicator.phoenix.lightlink.io/rpc/v1"
     ],
     "features": [
       {
@@ -21149,7 +21151,15 @@
         "icon": "lightlink",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "app_resource": {
+      "ic_chain_select": "https://hk.tpstatic.net/dapp/tokenpocket-1714378866804.png",
+      "ic_chain_unselect": "https://hk.tpstatic.net/dapp/tokenpocket-1714378840768.png",
+      "ic_chain_unselect_dark": "https://hk.tpstatic.net/dapp/tokenpocket-1714378852669.png",
+      "color_chain_bg": "0x000000",
+      "color_chain_text": "0xFFFFFF",
+      "ic_home_logo": "https://hk.tpstatic.net/dapp/tokenpocket-1714379070381.png"
+    }
   },
   {
     "name": "Lightlink Pegasus Testnet",
