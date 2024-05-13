@@ -10680,9 +10680,9 @@
     "network": "mainnet",
     "networkId": 1319,
     "nativeCurrency": {
-        "name": "AIA Mainnet",
-        "symbol": "AIA",
-        "decimals": 18
+      "name": "AIA Mainnet",
+      "symbol": "AIA",
+      "decimals": 18
     },
     "rpc": [
       "https://aia-dataseed1.aiachain.org",
@@ -10693,11 +10693,11 @@
     "faucets": [],
     "infoURL": "https://www.aiachain.org",
     "app_resource": {
-        "ic_chain_select": "https://images.aiachain.org/AIA/AIA1.png",
-        "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2.png",
-        "color_chain_bg": "0x080134"
+      "ic_chain_select": "https://images.aiachain.org/AIA/AIA1.png",
+      "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2.png",
+      "color_chain_bg": "0x080134"
     },
-	"explorers": [
+    "explorers": [
       {
         "name": "AIA Chain Explorer Mainnet",
         "url": "https://aiascan.com",
@@ -10713,23 +10713,23 @@
     "network": "testnet",
     "networkId": 1320,
     "nativeCurrency": {
-        "name": "AIA Testnet",
-        "symbol": "AIA",
-        "decimals": 18
+      "name": "AIA Testnet",
+      "symbol": "AIA",
+      "decimals": 18
     },
     "rpc": [
       "https://aia-dataseed1-testnet.aiachain.org"
     ],
     "faucets": [
-	  "https://aia-faucet-testnet.aiachain.org"
-	],
+      "https://aia-faucet-testnet.aiachain.org"
+    ],
     "infoURL": "https://www.aiachain.org",
     "app_resource": {
-        "ic_chain_select": "https://images.aiachain.org/AIA/AIA1-test.png",
-        "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2-test.png",
-        "color_chain_bg": "0xA1473B"
+      "ic_chain_select": "https://images.aiachain.org/AIA/AIA1-test.png",
+      "ic_chain_unselect": "https://images.aiachain.org/AIA/AIA2-test.png",
+      "color_chain_bg": "0xA1473B"
     },
-	"explorers": [
+    "explorers": [
       {
         "name": "AIA Chain Explorer Testnet",
         "url": "https://testnet.aiascan.com",
@@ -19912,24 +19912,6 @@
       }
     ],
     "status": "active"
-  },
-  {
-    "name": "OKBChain Mainnet",
-    "chain": "okbchain",
-    "rpc": [],
-    "faucets": [],
-    "nativeCurrency": {
-      "name": "OKBChain Global Utility Token",
-      "symbol": "OKB",
-      "decimals": 18
-    },
-    "features": [],
-    "infoURL": "https://www.okex.com/okc",
-    "shortName": "okb",
-    "chainId": 196,
-    "networkId": 196,
-    "explorers": [],
-    "status": "incubating"
   },
   {
     "name": "Neutrinos TestNet",
