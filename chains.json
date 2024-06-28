@@ -8086,6 +8086,7 @@
     "chain": "MetaChain",
     "network": "mainnet",
     "networkId": 20028,
+    "shortName": "meta",
     "nativeCurrency": {
       "name": "MTC",
       "symbol": "MTC",
