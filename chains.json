@@ -42994,5 +42994,26 @@
         "standard": "EIP3091"
       }
     ]
+  },{
+    "name": "tixoncoin Mainnet",
+    "chainId": 5888,
+    "shortName": "tixon",
+    "chain": "TIXON",
+    "network": "mainnet",
+    "networkId": 5888,
+    "nativeCurrency": {
+      "name": "tixoncoin",
+      "symbol": "TIXON",
+      "decimals": 18
+    },
+    "rpc": [
+      "http://rpc.tixoncoin.com"
+    ],
+    "faucets": [],
+    "infoURL": "http://www.tixoncoin.net",
+    "app_resource": {
+      "ic_chain_select": "http://www.tixoncoin.com/images/coin_logo.jpg",
+      "ic_chain_unselect": "http://www.tixoncoin.com/images/coin_logo_grey.jpg"
+    }
   }
 ]
