@@ -43045,6 +43045,14 @@
         "url": "https://matchscan.io",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "app_resource": {
+      "ic_chain_select": "https://hk.tpstatic.net/token/tokenpocket-1725341898223.png",
+      "ic_chain_unselect": "https://hk.tpstatic.net/token/tokenpocket-1725341881501.png",
+      "color_chain_bg": "0x000000",
+      "color_chain_text": "0xFFA723",
+      "ic_chain_unselect_dark": "https://hk.tpstatic.net/token/tokenpocket-1725341914873.png",
+      "ic_home_logo": "https://hk.tpstatic.net/token/tokenpocket-1725341927989.png"
+    }
   }
 ]
