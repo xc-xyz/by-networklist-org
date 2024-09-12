@@ -43054,5 +43054,73 @@
       "ic_chain_unselect_dark": "https://hk.tpstatic.net/token/tokenpocket-1725341914873.png",
       "ic_home_logo": "https://hk.tpstatic.net/token/tokenpocket-1725341927989.png"
     }
-  }
+  },
+  {
+    "name": "Phecda Mainnet",
+    "chainId": 8188,
+    "shortName": "PCD",
+    "chain": "PCD",
+    "network": "mainnet",
+    "networkId": 8188,
+    "nativeCurrency": {
+        "name": "Phecda",
+        "symbol": "PCD",
+        "decimals": 18
+    },
+    "rpc": [
+        "https://rpc.pcddao.com",
+        "wss://rpc.pcddao.com/wss",
+        "https://validator-01.pcddao.com",
+        "https://validator-02.pcddao.com",
+        "https://validator-03.pcddao.com",
+        "https://validator-04.pcddao.com",
+        "https://validator-05.pcddao.com",
+        "https://validator-06.pcddao.com",
+        "https://validator-07.pcddao.com",
+        "https://validator-08.pcddao.com",
+        "https://validator-09.pcddao.com",
+        "https://validator-10.pcddao.com",
+        "https://validator-11.pcddao.com",
+        "https://validator-12.pcddao.com",
+        "https://validator-13.pcddao.com",
+        "https://validator-14.pcddao.com",
+        "https://validator-15.pcddao.com",
+        "https://validator-16.pcddao.com",
+        "https://validator-17.pcddao.com",
+        "https://validator-18.pcddao.com",
+        "https://validator-19.pcddao.com",
+        "https://validator-20.pcddao.com",
+        "https://validator-21.pcddao.com",
+        "https://validator-22.pcddao.com",
+        "https://validator-23.pcddao.com",
+        "https://validator-24.pcddao.com",
+        "https://validator-25.pcddao.com",
+        "https://validator-26.pcddao.com",
+        "https://validator-27.pcddao.com",
+        "https://validator-28.pcddao.com",
+        "https://validator-29.pcddao.com",
+        "https://validator-30.pcddao.com",
+        "https://validator-31.pcddao.com",
+        "https://validator-32.pcddao.com",
+        "https://validator-33.pcddao.com"
+    ],
+    "faucets": [],
+    "infoURL": "https://www.pcddao.com",
+    "app_resource": {
+        "ic_chain_select": "https://sf.pcddao.com/wallet-tp/1.png",
+        "ic_chain_unselect": "https://sf.pcddao.com/wallet-tp/0.png",
+        "ic_chain_unselect_dark": "",
+        "color_chain_bg": "0x202630",
+        "color_chain_text": "0xF8F8FF",
+        "ic_home_logo": ""
+    },
+    "explorers": [
+        {
+            "name": "Phecda Chain Explorer",
+            "icon": "PCD",
+            "url": "https://pcdscan.pcddao.com",
+            "standard": "EIP3091"
+        }
+    ]
+}
 ]
