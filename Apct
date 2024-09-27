@@ -1,6 +1,0 @@
-const KeyAuthApp = new KeyAuth(
-    "AJX", // Application Name
-    "o0dHuOg0Bv", // Owner ID
-    "8093e8f6406f78ef6d37b1e80a89d4511fb3f14c62346bd7ab4715b49aff0ab7", // Application Secret
-    "1.0", // Application Version
-);
