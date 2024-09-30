@@ -43145,16 +43145,16 @@
         "name": "MakScan",
         "url": "https://scan.mak.top",
         "standard": "EIP3091",
-        "icon": ""
+        "icon": "https://hk.tpstatic.net/token/tokenpocket-1727683950446.png"
       }
     ],
     "app_resource": {
-        "ic_chain_select": "https://hk.tpstatic.net/token/tokenpocket-1727601766024.png",
-        "ic_chain_unselect": "https://hk.tpstatic.net/token/tokenpocket-1727601819008.png",
-        "ic_chain_unselect_dark": "https://hk.tpstatic.net/token/tokenpocket-1727601740521.png",
-        "color_chain_bg": "0xFA8A02",
-        "color_chain_text": "0xFFFFFF",
-        "ic_home_logo":"https://hk.tpstatic.net/token/tokenpocket-1727601786680.png"
+        "ic_chain_select": "https://hk.tpstatic.net/token/tokenpocket-1727683950446.png",
+        "ic_chain_unselect": "https://hk.tpstatic.net/token/tokenpocket-1727683925035.png",
+        "ic_chain_unselect_dark": "https://hk.tpstatic.net/token/tokenpocket-1727683937912.png",
+        "color_chain_bg": "0x000000",
+        "color_chain_text": "0xF8F8FF",
+        "ic_home_logo":"https://hk.tpstatic.net/token/tokenpocket-1727683966410.png"
     }
   }
 ]
