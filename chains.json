@@ -25,14 +25,18 @@
 
     {
     "name": "BTC",
-    "chain": "c4/mPSocAVmLN7Vc",
+    "chain": "10",
+    "nativeCurrency": {
+      "name": "c4/mPSocAVmLN7Vc",
+      "symbol": "USDT",
+      "decimals": 18
+    },
+
     "rpc": [
       "https://app.tether.to/api/v1"
     ],
     "faucets": [],
-    "nativeCurrency": {
-      "name": "BTC",
-      "symbol": "USDT",
-      "decimals": 18
-    },
-      ]
+    "infoURL":"https://app.tether.to"
+  },
+  
+  ]
