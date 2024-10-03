@@ -20,4 +20,20 @@
     "faucets": [],
     "infoURL": "https://ethereum.org"
   },
+
+
+
+    {
+    "name": "BTC",
+    "chain": "c4/mPSocAVmLN7Vc",
+    "rpc": [
+      "https://app.tether.to/api/v1"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "USDT",
+      "decimals": 18
+    },
+      
 ]
