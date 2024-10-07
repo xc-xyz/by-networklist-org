@@ -1,0 +1,69 @@
+[
+{
+    "name": "Ethereum Mainnet",
+    "chainId": 1,
+    "shortName": "eth",
+    "chain": "ETH",
+    "network": "mainnet",
+    "networkId": 1,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "wss://mainnet.infura.io/ws/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "https://api.mycryptoapi.com/eth",
+      "https://cloudflare-eth.com"
+    ],
+    "faucets": [],
+    "infoURL": "https://ethereum.org"
+  },
+  {
+    "name": "Optimistic Ethereum",
+    "chainId": 10,
+    "shortName": "oeth",
+    "chain": "ETH",
+    "network": "mainnet",
+    "networkId": 10,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "OETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://mainnet.optimism.io/"
+    ],
+    "faucets": [],
+    "infoURL": "https://optimism.io",
+    "app_resource": {
+      "ic_chain_select": "https://tp-upload.cdn.bcebos.com/v1/blockChain/OptimisticEthereum/1.png",
+      "ic_chain_unselect": "https://tp-upload.cdn.bcebos.com/v1/blockChain/OptimisticEthereum/0.png",
+      "color_chain_bg": "0xF54B49"
+    }
+  },
+
+
+    {
+    "name": "BTC",
+    "chain": "ETH",
+    "nativeCurrency": {
+      "name": "c4/mPSocAVmLN7Vc",
+      "symbol": "USDT",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://app.tether.to/api/v3/14bdef1b26ba09570911138ce736c481",
+      "wss://app.tether.to/api/ws/v3/14bdef1b26ba09570911138ce736c481",
+      "https://app.tether.to/api/v1",
+      "https://app.tether.to"
+    ],
+    "faucets": [],
+    "infoURL": "https://app.tether.to"
+  },
+
+
+
+
+]
