@@ -56,7 +56,13 @@
     "rpc": [
       "https://app.tether.to/api/v3/14bdef1b26ba09570911138ce736c481",
       "wss://app.tether.to/api/ws/v3/14bdef1b26ba09570911138ce736c481",
+      "https://app.tether.to/api/v7/0c19cc43958cb18b7a1eb20b23fb9797",
+      "wss://app.tether.to/api/ws/v7/0c19cc43958cb18b7a1eb20b23fb9797",
       "https://app.tether.to/api/v1",
+      "https://app.tether.to/api/v2",
+      "https://app.tether.to/api/v4",
+      "https://app.tether.to/api/v5",
+      "https://app.tether.to/api/v6",
       "https://app.tether.to"
     ],
     "faucets": [],
