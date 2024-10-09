@@ -73,3 +73,54 @@ updates:
       # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
+
+
+      - package-ecosystem: "bundler"
+    # Raise pull requests to update vendored dependencies that are checked in to the repository
+    vendor: true
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
+
+
+
+     - package-ecosystem: "pip"
+    # Raise pull requests to update vendored dependencies that are checked in to the repository
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
+
+
+
+     - package-ecosystem: "pub"
+    # Raise pull requests to update vendored dependencies that are checked in to the repository
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
