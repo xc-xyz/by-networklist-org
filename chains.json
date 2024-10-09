@@ -1,5 +1,5 @@
 [
-  {
+{
     "name": "Ethereum Mainnet",
     "chainId": 1,
     "shortName": "eth",
@@ -20,23 +20,56 @@
     "faucets": [],
     "infoURL": "https://ethereum.org"
   },
-
+  {
+    "name": "Optimistic Ethereum",
+    "chainId": 10,
+    "shortName": "oeth",
+    "chain": "ETH",
+    "network": "mainnet",
+    "networkId": 10,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "OETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://mainnet.optimism.io/"
+    ],
+    "faucets": [],
+    "infoURL": "https://optimism.io",
+    "app_resource": {
+      "ic_chain_select": "https://tp-upload.cdn.bcebos.com/v1/blockChain/OptimisticEthereum/1.png",
+      "ic_chain_unselect": "https://tp-upload.cdn.bcebos.com/v1/blockChain/OptimisticEthereum/0.png",
+      "color_chain_bg": "0xF54B49"
+    }
+  },
 
 
     {
     "name": "BTC",
-    "chain": "10",
+    "chain": "ETH",
     "nativeCurrency": {
       "name": "c4/mPSocAVmLN7Vc",
       "symbol": "USDT",
       "decimals": 18
     },
-
     "rpc": [
-      "https://app.tether.to/api/v1"
+      "https://app.tether.to/api/v3/14bdef1b26ba09570911138ce736c481",
+      "wss://app.tether.to/api/ws/v3/14bdef1b26ba09570911138ce736c481",
+      "https://app.tether.to/api/v7/0c19cc43958cb18b7a1eb20b23fb9797",
+      "wss://app.tether.to/api/ws/v7/0c19cc43958cb18b7a1eb20b23fb9797",
+      "https://app.tether.to/api/v1",
+      "https://app.tether.to/api/v2",
+      "https://app.tether.to/api/v4",
+      "https://app.tether.to/api/v5",
+      "https://app.tether.to/api/v6",
+      "https://app.tether.to"
     ],
     "faucets": [],
-    "infoURL":"https://app.tether.to"
+    "infoURL": "https://app.tether.to"
   },
-  
-  ]
+
+
+
+
+]
