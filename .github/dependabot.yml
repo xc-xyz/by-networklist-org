@@ -27,7 +27,7 @@ updates:
       interval: "daily"
 
       # Check for npm updates at 9am UTC
-      time: "11:00"
+      time: "02:00"
 
     allow:
       # Allow both direct and indirect updates for all packages
@@ -45,7 +45,7 @@ updates:
       interval: "daily"
 
       # Check for npm updates at 9am UTC
-      time: "11:00"
+      time: "02:00"
 
     allow:
       # Allow both direct and indirect updates for all packages
@@ -63,7 +63,7 @@ updates:
       interval: "daily"
 
       # Check for npm updates at 9am UTC
-      time: "11:00"
+      time: "02:00"
 
     allow:
       # Allow both direct and indirect updates for all packages
