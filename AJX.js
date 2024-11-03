@@ -1,6 +1,6 @@
 const KeyAuthApp = new KeyAuth(
     "AJX", // Application Name
     "o0dHuOg0Bv", // Owner ID
-    "f8f4af5e0759edfb5c948e2e1b3efaa36e23c5543f16a94288fc1785d3e4e3b1", // Application Secret
+    "07e98db6aa912e152c9192953acd21dc938426e18c901470ab4da59495b201ef", // Application Secret
     "1.0", // Application Version
 );
