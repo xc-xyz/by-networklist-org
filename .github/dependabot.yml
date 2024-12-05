@@ -149,3 +149,6 @@ updates:
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"
 
+    # Use this YAML in your workflow file for each job
+     runs-on: self-hosted
+
