@@ -7,7 +7,10 @@
       "extensions": [
         "DavidAnson.vscode-markdownlint",
         "ms-azuretools.vscode-docker",
-        "christian-kohler.npm-intellisense"
+        "christian-kohler.npm-intellisense",
+        "ms-vscode.remote-explorer",
+        "ms-vscode.remote-server",
+        "GitHub.remotehub"
       ]
     }
   }
